@@ -4,9 +4,9 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "po_sync"
-version = "0.0.1"
+version = "1.0.0"
 authors = [
-  { name="David Patiashvili", email="stratagem.david@gmail.com" },
+    { name = "David Patiashvili", email = "stratagem.david@gmail.com" },
 ]
 description = "PoSync is an open-source CLI tool that automatically syncs .po file msgid keys with applied corrections and updates the source code at the exact lines referenced in the .po, eliminating tedious manual replacements."
 readme = "README.md"
