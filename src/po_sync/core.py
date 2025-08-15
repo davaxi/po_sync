@@ -112,7 +112,10 @@ class PoSync:
                     continue
 
             self.occurrences_process_count += 1
-            self.logger.debug(f"{filename}:{line_no} — {entry.msgid} -> {entry.msgstr}")
+            if self.dry_run:
+                self.logger.info(f"[DRY-RUN] {filename}:{line_no} — {entry.msgid} -> {entry.msgstr}")
+            else:
+                self.logger.debug(f"{filename}:{line_no} — {entry.msgid} -> {entry.msgstr}")
 
             self.files[full_path]['lines'][idx] = self.files[full_path]['lines'][idx].replace(entry.msgid, entry.msgstr)
 
