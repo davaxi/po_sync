@@ -7,6 +7,7 @@ name = "pypi"
 setuptools = "*"
 polib = "*"
 po-sync = {file = ".", editable = true}
+tabulate = "*"
 
 [dev-packages]
 
