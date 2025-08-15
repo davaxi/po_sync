@@ -1,5 +1,9 @@
 # PoSync
 
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/po_sync?style=flat)
+![Python Version from PEP 621 TOML](https://img.shields.io/python/required-version-toml?tomlFilePath=https%3A%2F%2Fraw.githubusercontent.com%2Fdavaxi%2Fpo_sync%2Frefs%2Fheads%2Fmaster%2Fpyproject.toml&style=flat)
+![PyPI - Version](https://img.shields.io/pypi/v/po_sync?style=flat)
+
 **PoSync** is an open-source command-line tool designed to automatically synchronize `.po` file keys (`msgid`) with
 applied corrections and update your source code accordingly.  
 It is ideal for projects using React, Vue, Angular, or any framework that leverages `.po` files for
